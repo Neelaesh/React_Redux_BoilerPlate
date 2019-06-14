@@ -19,7 +19,7 @@ class Main extends React.Component {
     }
 
     componentDidMount(){
-        console.log("Inside Main Component");
+        console.log("Inside Main Components");
         this.props.loadPostsFromDataBase().then(()=>{
             this.setState({
                 loading : false
