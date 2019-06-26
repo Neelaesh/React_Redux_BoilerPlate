@@ -15,11 +15,10 @@ class Main extends React.Component {
             loading : true,
             posts : []
         }
-        console.log("Main Component Constructor");
     }
 
     componentDidMount(){
-        console.log("Inside Main Components");
+        console.log("Inside Main Component");
         this.props.loadPostsFromDataBase().then(()=>{
             this.setState({
                 loading : false
