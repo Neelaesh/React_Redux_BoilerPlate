@@ -15,7 +15,7 @@ class Main extends React.Component {
             loading : true,
             posts : []
         }
-        console.log("Main ");
+        console.log("Main Component Constructor");
     }
 
     componentDidMount(){
